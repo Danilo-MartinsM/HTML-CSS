@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'shiny';
+    src: url('fonte 2/Super\ Shiny.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+    /*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-att (Apple Advanced Typography)
+    - svg
+    */
+}
+body{
+    font-family: 'shiny';
+}
+h1{
+    font-family: 'shiny', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
